@@ -1,0 +1,14 @@
+* spring 공부
+
+#. spring-boot-devtools 라이브러리를 추가하면 html 파일을 컴파일만 하면 서버 재시작 없이 view 파일 변경 가능
+
+
+# 빌드하고 실행하기
+## build 하여 jar 만들기
+- 콘솔모드에서 gradlew.bat build
+- build/libs/ 하단에 .jar 파일 생성됨
+- 실행: java -jar XXX.jar
+## 이전 빌드 폴더 지우기
+- 콘솔모드에서 gradlew.bat clean
+## 새롭게 다시 빌드
+- 콘솔모드에서 gradlew.bat clean build  (클린빌드)
